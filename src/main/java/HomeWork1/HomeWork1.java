@@ -14,25 +14,25 @@ public class HomeWork1 {
     public static long ur1() {
         long  x=10, y = 200, z = 2, n = 50;
         long k = x + (y - 100) * z / n;
-        System.out.printf("1) x + (y-100) * z / n= " + k +"%n");
+        System.out.printf("1) x + (y-100) * z / n= %d%n",k);
         return 0;
     }
     public static int ur2() {
         int x=100, y=-20, z=2, n=5;
         int k=(x-(50+y*z)*n)+x;
-        System.out.printf("2) (x - (50+y*z) *n) +x= "+k+"%n");
+        System.out.printf("2) (x - (50+y*z) *n) +x= %d%n",k);
         return 0;
     }
        public static double ur3() {
         float x=10, y=27, z=2, n=6001;
         float k=x* (y / (z-1) +555) -n;
-        System.out.printf("3) x* (y / (z-1) +555) -n= "+k+"%n");
+        System.out.printf("3) x* (y / (z-1) +555) -n= %f%n",k);
         return 0;
     }
        public static double ur4() {
         float x=100, y=27, z=2, n=5;
         float k=-x/y+z*(n+1);
-        System.out.printf("4) -x/y +z * (n+1)= "+k+"%n");
+        System.out.printf("4) -x/y +z * (n+1)= %f%n",k);
         return 0;
     }
     /*
@@ -54,7 +54,7 @@ public class HomeWork1 {
         int t2=x/1000%10;
         int t1=x/10000%10;
 
-        System.out.printf(t5+"%n"+t4+"%n"+t3+"%n"+t2+"%n"+t1);
+        System.out.printf("%d%n%d%n%d%n%d%n%d",t5, t4, t3, t2, t1);
         return 0;
     }
     /*
@@ -69,7 +69,7 @@ Math.sqrt(a);
         double X=3, Y=1, Z=-1;
 
     double sqrt=Math.sqrt((X*X)+(Y*Y)+(Z*Z));
-    System.out.printf("Длина вектора (X, Y, Z) = "+sqrt);
+    System.out.printf("Длина вектора (X, Y, Z) = %s", sqrt);
 
     }
     public static void main(String[] args) {
@@ -78,9 +78,9 @@ Math.sqrt(a);
         ur2();
         ur3();
         ur4();
-        System.out.printf("%nTask #2:"+"%n");
+        System.out.printf("%nTask #2:%n");
         Task2();
-        System.out.printf("%nTask #3:"+"%n");
+        System.out.printf("%nTask #3:%n");
         Task3();
     }
 
